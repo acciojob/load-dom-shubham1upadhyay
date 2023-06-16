@@ -1,3 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
-   document.body.classList.add("dom-loaded");
+   var style = document.createElement("style");
+   style.innerHTML = `
+     body:before {
+       content: "DOM load success";
+     }
+   `;
+   document.head.appendChild(style);
 });

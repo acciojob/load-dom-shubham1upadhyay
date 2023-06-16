@@ -1,3 +1,0 @@
-body.dom-loaded:before {
-  content: "DOM load success";
-}
