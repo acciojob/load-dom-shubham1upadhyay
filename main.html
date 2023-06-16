@@ -7,9 +7,16 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+
+	<script>
+document.addEventListener("DOMContentLoaded", function() {
+   var textCase = document.createElement("p");
+   var text = document.createTextNode("DOM load success");
+   textCase.appendChild(text);
+   document.body.appendChild(textCase);
+ });
+	</script>
 
 </body>
 
